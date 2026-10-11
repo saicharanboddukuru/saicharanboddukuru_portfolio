@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saicharan Boddukuri | Mobile / Android Device Test Engineer</title>
+<meta name="description" content="Portfolio of Boddukuri Venkata Saicharan, Mobile / Android Device Test Engineer specialising in performance, power and thermal testing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b1220;--panel:#121c30;--panel2:#18243d;--ink:#e6ecf5;--mute:#91a2bd;--line:#243350;--hot:#ffb020;--cool:#35d0c1;--btn:#0b1220;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f4f6fa;--panel:#fff;--panel2:#eaf0f8;--ink:#0f1a2e;--mute:#53647f;--line:#d5deea;--hot:#b45f00;--cool:#0a7f75;--btn:#fff}}
+:root[data-theme="light"]{--bg:#f4f6fa;--panel:#fff;--panel2:#eaf0f8;--ink:#0f1a2e;--mute:#53647f;--line:#d5deea;--hot:#b45f00;--cool:#0a7f75;--btn:#fff}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.7 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:Sora,system-ui,sans-serif;margin:0;line-height:1.2}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+.logo{font:800 1.1rem Sora,sans-serif;text-decoration:none}
+.logo i{color:var(--hot);font-style:normal}
+.links{display:flex;gap:18px;overflow-x:auto;scrollbar-width:none}
+.links a{text-decoration:none;color:var(--mute);font-size:.92rem;white-space:nowrap}
+.links a:hover{color:var(--ink)}
+.tg{background:none;border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:4px 10px;cursor:pointer;font:inherit;font-size:.8rem}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--hot);outline-offset:3px}
+.hero{position:relative;overflow:hidden;padding:84px 0 72px;border-bottom:1px solid var(--line)}
+.trace{position:absolute;left:0;right:0;bottom:0;width:100%;height:46%;opacity:.55;pointer-events:none}
+.trace path{fill:none;stroke:url(#g);stroke-width:2.5;stroke-dasharray:2400;stroke-dashoffset:2400;animation:draw 3.2s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.hero .wrap{position:relative;display:flex;gap:48px;align-items:center;flex-wrap:wrap-reverse}
+.hero .txt{flex:1 1 380px}
+.hi{color:var(--cool);font-weight:500;margin-bottom:10px}
+h1{font-size:clamp(2.2rem,6vw,3.8rem);letter-spacing:-.02em}
+.sub{font:600 clamp(1.1rem,2.6vw,1.5rem) Sora,sans-serif;color:var(--hot);margin:12px 0 16px}
+.lead{color:var(--mute);max-width:560px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:500;text-decoration:none;border:1px solid var(--line)}
+.btn.p{background:var(--hot);color:#111;border-color:var(--hot)}
+.btn:hover{transform:translateY(-1px)}
+.photo{flex:0 0 auto;width:230px;height:230px;border-radius:50%;padding:5px;background:conic-gradient(var(--hot),var(--cool),var(--hot));cursor:pointer;border:0;position:relative}
+.photo span{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;background:var(--panel);overflow:hidden;font:800 3.4rem Sora,sans-serif;color:var(--hot)}
+.photo img{width:100%;height:100%;object-fit:cover}
+.photo small{position:absolute;bottom:-26px;left:0;right:0;text-align:center;color:var(--mute);font-size:.72rem}
+section.s{padding:84px 0;border-bottom:1px solid var(--line)}
+section.alt{background:var(--panel)}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);margin-bottom:36px}
+.about{display:grid;grid-template-columns:1.5fr 1fr;gap:40px}
+.about p{margin:0 0 14px;color:var(--mute)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:start}
+.stat{background:var(--panel2);border-radius:12px;padding:20px}
+.stat b{display:block;font:800 2rem Sora,sans-serif;color:var(--hot)}
+.stat span{color:var(--mute);font-size:.88rem}
+.tl{border-left:2px solid var(--line);margin-left:6px;padding-left:28px}
+.job{position:relative}
+.job:before{content:"";position:absolute;left:-37px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--hot);box-shadow:0 0 0 5px var(--bg)}
+.job h3{font-size:1.25rem}
+.job .co{color:var(--cool);font-weight:500}
+.job .dt{color:var(--mute);font-size:.88rem;margin:2px 0 14px}
+.job ul,.card ul{margin:0;padding-left:20px;color:var(--mute)}
+.job li,.card li{margin-bottom:8px}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:22px}
+.card{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:12px;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--hot);transform:translateY(-3px)}
+.card .dt{color:var(--hot);font-size:.85rem;font-weight:500}
+.card h3{font-size:1.2rem}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);border-radius:99px;padding:3px 13px;font-size:.84rem;color:var(--ink);background:var(--panel)}
+.card .chips{margin-top:auto;padding-top:8px}
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:22px}
+.sb{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+section.alt .sb{background:var(--panel2)}
+.sb h3{font-size:1rem;margin-bottom:14px;color:var(--cool)}
+.edu{background:var(--panel2);border-radius:14px;padding:26px;border-left:4px solid var(--hot)}
+.edu p{margin:4px 0 0;color:var(--mute)}
+.cg{display:grid;grid-template-columns:1fr 1.2fr;gap:40px}
+.cg p{color:var(--mute);margin:0 0 18px}
+.ci a{display:block;margin-bottom:10px;text-decoration:none;font-weight:500}
+.ci a:hover{color:var(--hot)}
+form{display:grid;gap:12px}
+input,textarea{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;width:100%}
+textarea{min-height:120px;resize:vertical}
+button.btn{cursor:pointer;font:inherit;font-weight:500}
+footer{padding:28px 0 40px;color:var(--mute);font-size:.88rem;text-align:center}
+@media (max-width:760px){.about,.cg{grid-template-columns:1fr}.hero{padding-top:48px}.photo{width:180px;height:180px}.links{gap:14px}.logo{display:none}}
+@media (prefers-reduced-motion:reduce){.trace path{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}.card,.btn{transition:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="logo" href="#home">Saicharan<i>.</i></a>
+  <div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+  <button class="tg" id="theme" aria-label="Switch light or dark theme">Theme</button>
+</div></nav>
+
+<header class="hero" id="home">
+  <svg class="trace" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#35d0c1"/><stop offset=".6" stop-color="#ffb020"/><stop offset="1" stop-color="#ff5a3c"/></linearGradient></defs>
+    <path d="M0 220 L60 215 L90 150 L120 225 L200 218 L230 110 L262 230 L340 210 L380 190 L410 60 L445 225 L520 205 L560 160 L590 215 L680 200 L710 90 L745 220 L820 195 L860 130 L900 205 L960 120 L990 40 L1030 190 L1100 100 L1150 60 L1200 30"/>
+  </svg>
+  <div class="wrap">
+    <div class="txt">
+      <div class="hi">Hello, I'm</div>
+      <h1>Boddukuri Venkata Saicharan</h1>
+      <div class="sub">Mobile / Android Device Test Engineer</div>
+      <p class="lead">I validate how Android devices behave in the real world, measuring power draw, heat and performance, then building Python automation so the testing scales.</p>
+      <div class="cta"><a class="btn p" href="#projects">View my work</a><a class="btn" href="#contact">Contact me</a></div>
+    </div>
+    <button class="photo" id="photo" aria-label="Profile picture. Click to preview a different photo"><span id="ph">SB</span><small>Click to preview your photo</small></button>
+    <input type="file" id="file" accept="image/*" hidden>
+  </div>
+</header>
+
+<section class="s" id="about"><div class="wrap">
+  <h2>About me</h2>
+  <div class="about">
+    <div>
+      <p>I'm a Mobile/Android Device Test Engineer with over three years of experience in performance, power consumption and thermal testing for Android devices. I'm comfortable with the Android Framework and mobile hardware architecture, and I use dedicated equipment such as Power Monsoon, Overcurrent Meter, Thermal Imager, Thermocouple and High-Speed Camera to validate devices at hardware level.</p>
+      <p>I build automated test frameworks with Python, Selenium, Pytest, Playwright and Appium, and I'm exploring how AI agents can speed up log triage and anomaly detection. I work with global cross-functional teams, so clear communication is part of everything I do.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>3+</b><span>Years of experience</span></div>
+      <div class="stat"><b>5</b><span>Hardware test tools</span></div>
+      <div class="stat"><b>10</b><span>Regression areas covered</span></div>
+      <div class="stat"><b>Global</b><span>Cross-functional teams</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="s alt" id="experience"><div class="wrap">
+  <h2>Experience</h2>
+  <div class="tl"><div class="job">
+    <h3>Mobile/Android Device Test Engineer</h3>
+    <div class="co">Pemma Global Consulting Private Limited</div>
+    <div class="dt">April 2023 – Present</div>
+    <ul>
+      <li>Perform performance, power consumption and thermal testing on Android devices to validate hardware and software behaviour under real-world conditions.</li>
+      <li>Capture and analyse power draw, temperature and frame-level performance data using Power Monsoon, Overcurrent Meter, Thermal Imager, Thermocouple and High-Speed Camera.</li>
+      <li>Build and maintain automated scripts with Python, Selenium and Pytest to streamline repetitive mobile testing and reduce manual test cycles.</li>
+      <li>Explore Playwright for UI-level automation and APK-based automation to widen test coverage across device features.</li>
+      <li>Test camera and other device features against functional and performance benchmarks, logging and triaging defects with development teams.</li>
+      <li>Analyse logcat and system logs to find root causes of performance bottlenecks, thermal throttling and power drain.</li>
+      <li>Work with global cross-functional teams to report findings, align on test plans and drive issue resolution.</li>
+    </ul>
+  </div></div>
+</div></section>
+
+<section class="s" id="projects"><div class="wrap">
+  <h2>Projects</h2>
+  <div class="pg">
+    <article class="card">
+      <div class="dt">January 2025 – August 2026</div>
+      <h3>Android Power &amp; Thermal Performance Validation Framework</h3>
+      <ul>
+        <li>Designed a framework that automates power consumption and thermal validation cycles using Power Monsoon and Thermal Imager data logging.</li>
+        <li>Wrote Python and Pytest scripts to trigger workloads, capture Overcurrent Meter and Thermocouple readings, and generate pass/fail reports.</li>
+        <li>Cut manual execution time by combining high-speed camera capture with automated frame-rate and performance analysis.</li>
+        <li>Used AI-based anomaly detection to flag abnormal power and thermal patterns, reducing manual log review.</li>
+      </ul>
+      <div class="chips"><span class="chip">Python</span><span class="chip">Pytest</span><span class="chip">Power Monsoon</span><span class="chip">Thermal Imager</span><span class="chip">AI anomaly detection</span></div>
+    </article>
+    <article class="card">
+      <div class="dt">April 2023 – December 2024</div>
+      <h3>Android Mobile Hardware Validation &amp; Regression Testing</h3>
+      <ul>
+        <li>Owned build qualification end to end: received builds, flashed devices and ran sanity tests before full regression.</li>
+        <li>Ran regression across telephony, connectivity, display, camera, audio, sensors, battery, charging, power and thermal.</li>
+        <li>Triaged failures with logcat, dmesg, bugreport and Perfetto traces, classifying root cause as application, framework, HAL, driver, kernel or hardware.</li>
+        <li>Tracked defects in Jira and verified fixes with impacted-area regression.</li>
+        <li>Automated repetitive validation with Python, PyTest and ADB, and used AI agents to speed up log triage.</li>
+      </ul>
+      <div class="chips"><span class="chip">Python</span><span class="chip">PyTest</span><span class="chip">ADB</span><span class="chip">Perfetto</span><span class="chip">Jira</span></div>
+    </article>
+  </div>
+</div></section>
+
+<section class="s alt" id="skills"><div class="wrap">
+  <h2>Skills</h2>
+  <div class="sg">
+    <div class="sb"><h3>Mobile / Android testing</h3><div class="chips"><span class="chip">Performance Testing</span><span class="chip">Power Consumption</span><span class="chip">Thermal Testing</span><span class="chip">Thermal Validation</span><span class="chip">Mobile Device Testing</span><span class="chip">Camera Feature Testing</span><span class="chip">Android Framework</span></div></div>
+    <div class="sb"><h3>Hardware test tools</h3><div class="chips"><span class="chip">Power Monsoon</span><span class="chip">Overcurrent Meter</span><span class="chip">Thermal Imager</span><span class="chip">Thermocouple</span><span class="chip">High-Speed Camera</span></div></div>
+    <div class="sb"><h3>Automation &amp; scripting</h3><div class="chips"><span class="chip">Python</span><span class="chip">Selenium</span><span class="chip">Pytest</span><span class="chip">Playwright</span><span class="chip">Appium</span><span class="chip">Robot Framework</span><span class="chip">APK-based Automation</span></div></div>
+    <div class="sb"><h3>Debugging &amp; process</h3><div class="chips"><span class="chip">Log Analysis</span><span class="chip">ADB Logcat</span><span class="chip">Dmesg</span><span class="chip">Bugreport</span><span class="chip">Perfetto Traces</span><span class="chip">Build Flashing</span><span class="chip">Regression Testing</span><span class="chip">Jira</span><span class="chip">Mobile Hardware Architecture</span></div></div>
+    <div class="sb"><h3>AI-assisted tools</h3><div class="chips"><span class="chip">GitHub Copilot</span><span class="chip">ChatGPT</span><span class="chip">AI anomaly detection</span><span class="chip">Applitools</span><span class="chip">Self-healing automation</span><span class="chip">AI agents for log triage</span></div></div>
+  </div>
+</div></section>
+
+<section class="s" id="education"><div class="wrap">
+  <h2>Education</h2>
+  <div class="edu"><h3>Bachelor of Technology (B.Tech) in Computer Science</h3><p>RSR Engineering College, affiliated to JNTUA College of Engineering</p></div>
+</div></section>
+
+<section class="s alt" id="contact"><div class="wrap">
+  <h2>Get in touch</h2>
+  <div class="cg">
+    <div class="ci">
+      <p>I'm open to opportunities in Android device testing and test automation. Send a message or reach me directly.</p>
+      <a href="mailto:boddukuru.venkata@gmail.com">boddukuru.venkata@gmail.com</a>
+      <a href="https://www.linkedin.com/in/your-profile" rel="noopener">LinkedIn profile</a>
+    </div>
+    <form id="cf">
+      <input id="n" placeholder="Your name" aria-label="Your name" required>
+      <input id="e" type="email" placeholder="Your email" aria-label="Your email" required>
+      <textarea id="m" placeholder="Your message" aria-label="Your message" required></textarea>
+      <button class="btn p" type="submit">Send by email</button>
+    </form>
+  </div>
+</div></section>
+
+<footer><div class="wrap">© 2026 Boddukuri Venkata Saicharan · Mobile / Android Device Test Engineer</div></footer>
+
+<script>
+var f=document.getElementById('file'),p=document.getElementById('photo');
+// To use a permanent photo on GitHub Pages, add photo.jpg next to this file.
+var t=new Image();t.onload=function(){document.getElementById('ph').innerHTML='<img alt="Saicharan" src="photo.jpg">'};t.src='photo.jpg';
+p.onclick=function(){f.click()};
+f.onchange=function(){var x=f.files[0];if(!x)return;var r=new FileReader();r.onload=function(){document.getElementById('ph').innerHTML='<img alt="Saicharan" src="'+r.result+'">'};r.readAsDataURL(x)};
+document.getElementById('theme').onclick=function(){var d=document.documentElement,bg=getComputedStyle(d).getPropertyValue('--bg').trim();d.setAttribute('data-theme',bg==='#0b1220'?'light':'dark')};
+document.getElementById('cf').onsubmit=function(ev){ev.preventDefault();var n=document.getElementById('n').value,e=document.getElementById('e').value,m=document.getElementById('m').value;
+location.href='mailto:boddukuru.venkata@gmail.com?subject='+encodeURIComponent('Portfolio enquiry from '+n)+'&body='+encodeURIComponent(m+'\n\n'+n+' ('+e+')')};
+</script>
+</body>
+</html>
